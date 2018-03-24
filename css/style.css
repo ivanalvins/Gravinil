@@ -1,0 +1,569 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.1;
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    line-height: 170%;
+    letter-spacing: 0.8px;
+}
+
+.justify{
+    text-align: justify;
+}
+
+h1 {
+    font-size: 4.2rem;
+    line-height: 140%;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+}
+
+.row {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+}
+
+.margin-left{
+    margin-left: 1em;
+}
+
+/*Empieza barra de navegacion*/
+
+nav {
+  color: #fff;
+  background-color:#F7323F;
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+}
+
+nav ul {
+    margin: 0;
+    padding-right: 10em;
+}
+
+nav .brand-logo {
+    position: absolute;
+    color: #fff;
+    display: inline-block;
+    font-size: 2.1rem;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    height: 100%;
+    margin-left: 5%;
+    white-space: nowrap;
+}
+
+.side-nav li {
+    float: none;
+    line-height: 0px;
+}
+
+nav .nav-wrapper i {
+    height: 64px;
+    line-height: 100px;
+}
+
+.dropdown-content li>a, .dropdown-content li>span {
+    font-size: 16px;
+    color: rgba(0,0,0,0.87);
+    display: block;
+    line-height: 22px;
+    padding: 14px 16px;
+    width: 145px;
+}
+
+nav a.button-collapse i {
+    height: 64px;
+    line-height: 4em;
+}
+/*Termina barra de navegacion*/
+
+/*Empieza Video*/
+.homepage-hero-module {
+    border-right: none;
+    border-left: none;
+    position: relative;
+    height: 60vh !important;
+    background-position: center;
+}
+.no-video .video-container video,
+.touch .video-container video {
+    display: none;
+}
+.no-video .video-container .poster,
+.touch .video-container .poster {
+    display: block !important;
+}
+.video-container {
+    z-index:0;
+    position: absolute;
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+    background: #000;
+    padding-bottom: 0px;
+}
+.video-container .poster img {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+.video-container .filter {
+    z-index: 100;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+}
+.video-container video {
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+}
+.video-container video.fillWidth {
+    width: 100%;
+}
+/*Termina Video*/
+
+/*Empieza banner*/
+
+.banner{
+    background-image:url(../img/banner.png);
+    height: 60vh;
+}
+
+.banner-small-nosotros{
+    background-image:url(../img/banner1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40vh;
+}
+
+.banner-small-compuestos{
+    background-image:url(../img/banner3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40vh;
+}
+
+.banner-small-laminados{
+    background-image:url(../img/banner4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40vh;
+}
+
+.banner-small-contacto{
+    background-image:url(../img/banner2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40vh;
+}
+
+.banner-slogan{
+    position: relative;
+    z-index: 1000;
+}
+.h1-banner{
+    color: white;
+}
+
+.fixed-action-btn {
+    position: absolute;
+    top:69.5%;
+    right: 10%;
+    margin-bottom: 0;
+    z-index: 998;
+}
+
+.fixed-action-btn-banner-small{
+    position: absolute;
+    top:69.5%;
+    right: 10%;
+    margin-bottom: 0;
+    z-index: 998;
+}
+
+.small-fab {
+    position: absolute;
+    top:49.5%;
+    right: 10%;
+    margin-bottom: 0;
+    z-index: 998;
+}
+
+.short{
+    box-sizing: content-box;
+    height: 0;
+    width: 6em;
+    border-width: 1px;
+    margin-left: 0px;
+    border-color: #F7323F;  
+}
+
+.btn{
+    text-decoration: none;
+    color: #F7323F;;
+    background-color: transparent;
+    text-align: center;
+    letter-spacing: .5px;
+    transition: .2s ease-out;
+    cursor: pointer;
+    border:solid 1px #F7323F;;
+    margin-top: 2em;
+    border-radius: 25px;
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 2rem;
+    text-transform: uppercase;
+    vertical-align: middle;
+    -webkit-tap-highlight-color: transparent;
+    box-shadow: none;
+}
+
+.btn:hover,.btn:focus,.btn:active,.btn:hover:focus{
+    background-color: white;
+    color: #F7323F;
+    border: solid 1px white;
+    box-shadow: none;
+}
+
+.btn-red{
+    text-decoration: none;
+    color: #F7323F;
+    background-color: transparent;
+    text-align: center;
+    letter-spacing: .5px;
+    transition: .2s ease-out;
+    cursor: pointer;
+    border:solid 1px #F7323F;;
+    margin-top: 2em;
+    border-radius: 25px;
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 2rem;
+    text-transform: uppercase;
+    vertical-align: middle;
+    -webkit-tap-highlight-color: transparent;
+    box-shadow: none;
+}
+
+.btn-red:hover,.btn-red:focus,.btn-red:active,.btn-red:hover:focus{
+    background-color: #F7323F;
+    color: white;
+    border: solid 1px #F7323F;
+    box-shadow: none;
+}
+/*Termina banner*/
+
+/*Empieza Beneficios*/
+#beneficios{
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+.datos{
+   overflow: hidden; 
+}
+
+.datos-icono{
+    width: 30%;
+    text-align: center;
+    margin-right: 5%;
+    float: left;
+    font-size: 50px;
+
+}
+
+h1.beneficios{
+    font-size: 3rem;
+    font-weight: lighter;
+}
+
+.datos-info{
+    float: left;
+    width: 65%;
+    text-align: left;
+}
+/*Termina Beneficios*/
+
+
+/*Empieza Parallax*/
+.parallax { 
+    /* The image used */
+    background-image: url(../img/img-parallax.jpg);
+
+    /* Full height */
+    height: 40vh; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5em;
+    position: relative;
+    -webkit-filter: grayscale(60%);
+    filter: grayscale(60%);
+    
+}
+
+.parallax-xs { 
+    /* The image used */
+    width: 100vw;
+    height: auto;
+    background-repeat: no-repeat;
+/*    background-attachment: fixed;*/
+    background-position: center;
+    -webkit-filter: grayscale(60%);
+    filter: grayscale(60%);
+}
+
+/*Termina Parallax*/
+
+
+/*Empieza Iconos*/
+#iconos{
+    margin-top: 6em;
+    margin-bottom: 6em;
+}
+
+.btn-icon{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.38);
+    background-color:rgba(3, 3, 3, 0.12);
+    text-align: center;
+    letter-spacing: .5px;
+    transition: .2s ease-out;
+    cursor: pointer;
+    border: none;
+    border-radius: 100px;
+    display: inline-block;
+    height:80px;
+    width:80px;
+    margin: auto;
+    vertical-align: middle;
+    -webkit-tap-highlight-color: transparent;
+    transition: all 0.8s ease;
+}
+
+.row-iconos{
+    padding-bottom: 2em;
+}
+
+.seccion-iconos{
+    padding-top: 38%;
+}
+
+.btn-icon:hover {
+    color: #F7323F;
+    background-color: rgba(247, 50, 63, 0.26);
+}
+
+.btn-icon:hover {
+    color: #F7323F;
+    background-color: rgba(247, 50, 63, 0.26);
+}
+/*Termina Iconos*/
+
+/*Empieza Clientes*/
+#clientes{
+    background-color:#EFEFF4;
+    padding-top: 3em;
+    padding-bottom: 2em;  
+}
+
+.logos-clientes{
+    max-width: 70%;
+    height: auto;
+    padding-bottom: 2em;
+}
+/*Terminar Clientes*/
+
+/*Empieza Pattern*/
+
+#pattern{
+    background-image:url(../img/Artboard.png);
+    height:20vh;
+    background-repeat:repeat;
+/*    background-attachment: fixed;*/
+}
+/*Termina Pattern*/
+
+/*Empieza Footer*/
+footer{
+    color: white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: #F7323F;
+}
+/*Termina Footer*/
+
+/*Empieza Pasos*/
+#nosotros-pasos{
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.red-dot{
+    color: #F7323F;
+    content: ".";
+    font-size: 36px;
+}
+
+.red-dot-big{
+    color: #F7323F;
+    content: ".";
+    font-size: 4rem;
+    padding-left: 0.2em;
+}
+
+.btn-pasos{
+    text-decoration: none;
+    color: #F7323F;
+    background-color:none;
+    text-align: center;
+    letter-spacing: .5px;
+    transition: .2s ease-out;
+    cursor: pointer;
+    border: 1px solid #F7323F ;
+    border-radius: 100px;
+    display: inline-block;
+    height:80px;
+    width:80px;
+    margin: auto;
+    vertical-align: middle;
+    -webkit-tap-highlight-color: transparent;
+    transition: all 0.8s ease;
+    margin-bottom: 2em;
+}
+
+.h3-pasos{
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+    line-height: 185%;
+}
+
+.center {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.row-pasos{
+    padding-bottom: 5em;
+}
+/*Termina Pasos*/
+
+/*Empieza Productos*/
+#productos{
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+/*Termina Productos*/
+
+/*Empieza Modal*/
+a {
+    color: rgba(0,0,0,0.87);;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.btn-leyenda{
+    letter-spacing: .5px;
+    transition: .2s ease-out;
+    cursor: pointer;
+    border-radius: 20px;
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    vertical-align: middle;
+    -webkit-tap-highlight-color: transparent;
+}
+/*Termina Modal*/
+
+/*Empieza seccion Contacto*/
+#contacto{
+    padding-top: 3em;
+    padding-bottom: 5em;
+}
+
+.line-height{
+    line-height: 32px;
+}
+/*Termina seccion Contacto*/
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+h1 {
+    font-size: 2.5rem;
+    line-height: 140%;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+}
+    
+.fixed-action-btn {
+    position: absolute;
+    top: 72.5%;
+    right: 10%;
+    margin-bottom: 0;
+    z-index: 998;
+}
+    
+.top{
+    top: 52.5% !important;
+}
+
+nav .brand-logo {
+    position: absolute;
+    color: #fff;
+    display: inline-block;
+    font-size: 2.1rem;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    height: 100%;
+    margin-left: 5%;
+    white-space: nowrap;
+}
+    
+.side-nav {
+    position: fixed;
+    width: 80%;
+    left: 0;
+    top: 0;
+    margin: 0;
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    height: 100%;
+    height: calc(100% + 60px);
+    height: -moz-calc(100%);
+    padding-bottom: 60px;
+    background-color: #fff;
+    z-index: 999;
+    overflow-y: auto;
+    will-change: transform;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: translateX(-105%);
+    transform: translateX(-105%);
+}
+    
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
+    color: #ffab40;
+    margin-right: 0px;
+    transition: color .3s ease;
+    text-transform: uppercase;
+}
+
+.margin-left{
+    margin-left: 3em;
+}
+    
+}
